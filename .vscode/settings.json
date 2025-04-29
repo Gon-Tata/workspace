@@ -1,0 +1,8 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "smooth",
+    "editor.mouseWheelZoom": true,
+    "editor.fontFamily": "'Cascadia Code', 'Cascadia Code', Xiaolai"
+}
