@@ -1,0 +1,13 @@
+{
+    "editor.dropIntoEditor.preferences": [
+
+    ],
+    "editor.codeActionsOnSave": {
+
+    },
+    "editor.fontFamily": "'Cascadia Code', 'Cascadia Code', Xiaolai",
+    "files.autoSave": "afterDelay",
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "smooth"
+}

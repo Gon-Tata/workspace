@@ -1,0 +1,12 @@
+taskkill -f -im studentmain.exe
+
+code ~/.bashrc
+alias clock='cd /home/gon_tata/下载/code && ./clock'
+# source ~/.bashrc
+
+/*
+
+Keep dreaming
+Remain loving
+
+*/
