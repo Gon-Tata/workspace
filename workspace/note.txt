@@ -4,6 +4,16 @@ code ~/.bashrc
 alias clock='cd /home/gon_tata/下载/code && ./clock'
 # source ~/.bashrc
 
+https://open-vsx.org/extension/MS-CEINTL/vscode-language-pack-zh-hans
+
+https://www.cnblogs.com/henry-1202/p/10258867.html
+https://www.cnblogs.com/Xing-Ling/p/10897760.html
+
+git init
+git add .
+git commit -m "z"
+git push origin main
+
 /*
 
 Keep dreaming

@@ -5,9 +5,10 @@
     "editor.codeActionsOnSave": {
 
     },
-    "editor.fontFamily": "'Cascadia Code', 'Cascadia Code', Xiaolai",
+    "editor.fontFamily": "'Cascadia Code', 'Cascadia Code', Xiaolai SC",
     "files.autoSave": "afterDelay",
     "editor.smoothScrolling": true,
     "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorBlinking": "smooth"
+    "editor.cursorBlinking": "smooth",
+    "editor.fontLigatures": true
 }
