@@ -1,9 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-#define int long long
-const int inf=2e5+10;
-const int p=1e9+7;
-int n,k,fac[inf+2],ans;
+const int inf=1e6+10;
+int t,n,m,fac[inf+2],p;
 int Pow(int a,int x){
 	int ans=1;
 	a%=p;
@@ -15,16 +13,19 @@ int Pow(int a,int x){
 	return ans;
 }
 int C(int a,int b){
-    return a<b?0:1ll*fac[a]*Pow(fac[b],p-2)%p*Pow(fac[a-b],p-2)%p;
+	return a<b?0:1ll*fac[a]*Pow(fac[b],p-2)%p*Pow(fac[a-b],p-2)%p;
 }
-signed main(){
+int lucas(int a,int b){
+	return b?1ll*lucas(a/p,b/p)%p*C(a%p,b%p)%p:1;
+}
+int main(){
 	// freopen("a.in","r",stdin);
-    fac[0]=1;
-    for(int i=1;i<=inf;++i) fac[i]=1ll*fac[i-1]*i%p;
-    scanf("%lld%lld",&n,&k);
-	for(int i=0;i<=min(k,n-1);i++){
-		ans=(ans+(C(n,i)*C(n-1,n-i-1))%p+p*2)%p;
+	cin>>t;
+	while(t--){
+		scanf("%d%d%d",&n,&m,&p);
+		fac[0]=1;
+		for(int i=1;i<=p;++i) fac[i]=1ll*fac[i-1]*i%p;
+		printf("%d\n",lucas(n+m,n));
 	}
-	cout<<ans;
-    return 0;
-}
+	return 0;
+}//cwymp
