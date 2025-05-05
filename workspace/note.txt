@@ -8,6 +8,9 @@ https://open-vsx.org/extension/MS-CEINTL/vscode-language-pack-zh-hans
 
 https://www.cnblogs.com/henry-1202/p/10258867.html
 https://www.cnblogs.com/Xing-Ling/p/10897760.html
+https://blog.csdn.net/weixin_44885334/article/details/121807301
+
+https://ksmeow.moe/array_bzoj4403_sol/
 
 git init
 git add .
