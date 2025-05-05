@@ -28,4 +28,4 @@ int main(){
 		printf("%d\n",lucas(n+m,n));
 	}
 	return 0;
-}//cwymp
+}
