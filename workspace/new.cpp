@@ -30,8 +30,8 @@ int main(){
 			fac[i] = 1ll * fac[i - 1] * i % p;
 		printf("%d\n", lucas(n + m, n));
 	}
-
-	return 0;
+	
+    return 0;
 }
 /*
 
