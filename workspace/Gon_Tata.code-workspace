@@ -1,9 +1,11 @@
 {
 	"folders": [
 		{
+			"name": "下载",
 			"path": ".."
 		},
 		{
+			"name": "workspace",
 			"path": "."
 		}
 	],
