@@ -15,7 +15,21 @@
 		"editor.fontLigatures": true,
 		"files.associations": {
 			"iostream": "cpp",
-			"ostream": "cpp"
+			"ostream": "cpp",
+			"bitset": "cpp",
+			"cmath": "cpp",
+			"complex": "cpp",
+			"cstddef": "cpp",
+			"deque": "cpp",
+			"algorithm": "cpp",
+			"functional": "cpp",
+			"fstream": "cpp",
+			"iomanip": "cpp",
+			"any": "cpp",
+			"random": "cpp",
+			"istream": "cpp",
+			"regex": "cpp",
+			"utility": "cpp"
 		}
 	}
 }
